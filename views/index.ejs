@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Faiz</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">Faiz.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#contact" style="--i:4">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Muhammed Faiz</h1>
+            <h3>And I'm a <span>Full-Stack Developer</span></h3>
+            <p>I am a passionate and dedicated full-stack MERN (MongoDB, Express.js, React.js, Node.js) developer, eager
+                to kick-start my career in the exciting world of web development.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="image/hero.png" alt="">
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-stack Developer</h3>
+            <p>Hello! I'm Muhammed Faiz, a passionate and aspiring full-stack MERN (MongoDB, Express.js, React.js,
+                Node.js) developer with a strong drive to excel in the world of web development. Although I may be new
+                to the professional field, I have a deep enthusiasm for learning and a solid foundation in the MERN
+                stack.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section class="services" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Node JS</h3>
+                <p>As a full-stack MERN developer, I leverage the power of Node.js to build scalable and efficient
+                    server-side applications for modern web development.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>React JS</h3>
+                <p>
+                    As a full-stack MERN developer, I excel in leveraging the power of React.js to build engaging and
+                    interactive user interfaces.</p><br><br>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-mongodb'></i>
+                <h3>Mongo DB</h3>
+                <p>With extensive experience in MongoDB, I ensure efficient data storage and retrieval for modern web
+                    applications as a full-stack MERN developer.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-python'></i>
+                <h3>Python</h3>
+                <p>As a full-stack developer, I utilize the versatility and power of Python for web development, data
+                    analysis, AI, and automation, delivering robust applications.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Photoshop</h3>
+                <p>I excel in using Photoshop to create visually stunning designs for graphic design, photo editing, and
+                    digital art.</p><br><br>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-microsoft-teams'></i>
+                <h3>Presentation</h3>
+                <p>I create engaging presentations that effectively communicate ideas, leaving a lasting impression with
+                    visually appealing content.</p><br> <br>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="" method="post" enctype="application/x-www-form-urlencoded"  onsubmit="return validateForm()">
+            <p class="error" id="error"></p>
+            <div class="input-box">
+                <input type="text" id="name" name="name" placeholder="Full Name">
+                <input type="email" id="email" name="email" placeholder="Email-address">
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobile" name="mobile" placeholder="Mobile Number">
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+            </div>
+            <textarea name="" id="message" name="message" cols="30" rows="10" placeholder="Your Message..."></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Muhammed Faiz | All Rights Reserved.</p>
+        </div>
+
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- js -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
